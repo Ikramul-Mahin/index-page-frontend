@@ -1,6 +1,8 @@
 import React from 'react';
 import ramna from '../../image/raman.jpeg'
 import jhon from '../../image/jhon.jpeg'
+import { AiFillStar } from 'react-icons/ai'
+
 const Review4 = () => {
     return (
         <div className='bg-slate-50 mx-24'>
@@ -9,7 +11,13 @@ const Review4 = () => {
                     <img className='rounded-full w-72 h-20' src={ramna} alt="" />
                 </div>
                 <div>
-                    <i></i>
+                    <div className='flex justify-start text-2xl  text-yellow-500 my-4'>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                    </div>
                     <p className='text-lg' >"I recently started using Boloforms for my Google Forms and it has been an absolute game-changer. The software is intuitive and user friendly, so I was able to set up my forms quickly & easily. It also provides powerful analytics to understand and act on the data collected from my forms in real-time. Overall, it's been a great experience using Boloforms and I highly recommend it!"</p>
                     <h1 className='font-bold text-xl'>Raman</h1>
                 </div>
@@ -41,7 +49,13 @@ const Review4 = () => {
                     <img className='rounded-full w-72 h-20' src={jhon} alt="" />
                 </div>
                 <div>
-                    <i></i>
+                    <div className='flex justify-start text-2xl  text-yellow-500 my-4'>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                        <AiFillStar></AiFillStar>
+                    </div>
                     <p className='text-lg' >"Customer support is super awesome, Great add on for our team! This helps our task management must easier. I can easily keep track of my member's request and work progress. The approval process is smooth and extremely quick. I highly recommend this addon especially for small business like mine."</p>
                     <h1 className='font-bold text-xl'>Jhon M</h1>
                 </div>

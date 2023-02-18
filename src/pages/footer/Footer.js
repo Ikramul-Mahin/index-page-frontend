@@ -38,8 +38,8 @@ const Footer = () => {
                     <a className="">Refund Policy</a>
                     <a className="">Data Security & Policy</a>
 
-                    <div className='ml-8'>
-                        <select className="select  w-full max-w-xs">
+                    <div className='ml-8 mt-12'>
+                        <select className="select  w-full ">
                             <option disabled selected>Select Language</option>
                             <option>Han Solo</option>
                             <option>Greedo</option>

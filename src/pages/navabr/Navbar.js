@@ -48,8 +48,8 @@ const Navbar = () => {
                     <li><a>Templates</a></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className=" btn-outline border-purple-400 border-2 hover:bg-purple-400  px-2 text-purple-600 py-2 bg rounded-lg font-bold text-md mr-3 text-white">Install Now</a>
+            <div className="navbar-end d-sm-none">
+                <a className="d-sm border-purple-400 border-2 hover:bg-purple-400 hover:text-white px-2 text-purple-600 py-2  rounded-lg font-bold text-md mr-3">Install Now</a>
                 <a className="btn-bg px-3 py-2 bg rounded-lg font-bold text-lg text-white">BoloForms Premium</a>
             </div>
         </div>
